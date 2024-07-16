@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: { 
+        "hero-img" : "url('./src/assets/bg.png')"
+      },
+      fontFamily:{
+        playwrite : ["Playwrite HR", 'cursive'],
+        roboto: ["Roboto", 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
