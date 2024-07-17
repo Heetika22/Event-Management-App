@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: { 
-        "hero-img" : "url('./src/assets/bg.png')"
+        "hero-img" : "url('./src/assets/home.png')",
+        "form-bg" : "url('./src/assets/formbg.png')"
       },
       fontFamily:{
         playwrite : ["Playwrite HR", 'cursive'],

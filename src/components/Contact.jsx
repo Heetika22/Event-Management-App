@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import { api_uri } from '../config';
 
 export default function Contact() {
   const [name, setName] = useState('');
@@ -53,7 +53,7 @@ export default function Contact() {
                 />
             </div>
             <div className='md:w-1/2 '>              
-                <form className=' sm:mx-5'>
+                <form className=' sm:mx-5' onSubmit={handleSendMessage}>
                     <div className='md:flex  '>
                         <input 
                             type='text'
@@ -65,8 +65,8 @@ export default function Contact() {
                         <input 
                             type='email'
                             placeholder='E-mail'
-                            value={name}
-                            onChange={(e) => setName(e.target.value)}
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
                             className='border border-gray-400 rounded-xl p-2 m-2 w-full md:flex-1'
                         />
                     </div>
