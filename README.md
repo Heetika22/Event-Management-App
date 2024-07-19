@@ -39,7 +39,7 @@ Built a full-stack application using React, Express, and MongoDB for managing ev
 5. **Configure environment variables**:
    - Create a .env file in the server directory and add the JWT_SECRET
   
-##Usage
+## Usage
 
 1. **Start the backend server**:
    ```bash
@@ -51,3 +51,5 @@ Built a full-stack application using React, Express, and MongoDB for managing ev
    cd ..
    npm run dev
    ```
+
+![main-page](screenshots/main-page.png)
